@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC1638EB18F69A380056739E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1638EA18F69A380056739E /* Foundation.framework */; };
+		AC1638F018F69A380056739E /* UIColor_TomorrowTheme.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC1638EF18F69A380056739E /* UIColor_TomorrowTheme.h */; };
+		AC1638F218F69A380056739E /* UIColor_TomorrowTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1638F118F69A380056739E /* UIColor_TomorrowTheme.m */; };
+		AC1638F918F69A380056739E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1638F818F69A380056739E /* XCTest.framework */; };
+		AC1638FA18F69A380056739E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1638EA18F69A380056739E /* Foundation.framework */; };
+		AC1638FC18F69A380056739E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1638FB18F69A380056739E /* UIKit.framework */; };
+		AC1638FF18F69A380056739E /* libUIColor+TomorrowTheme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1638E718F69A380056739E /* libUIColor+TomorrowTheme.a */; };
+		AC16390518F69A380056739E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC16390318F69A380056739E /* InfoPlist.strings */; };
+		AC16390718F69A380056739E /* UIColor_TomorrowThemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16390618F69A380056739E /* UIColor_TomorrowThemeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC1638FD18F69A380056739E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1638DF18F69A380056739E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1638E618F69A380056739E;
+			remoteInfo = "UIColor+TomorrowTheme";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC1638E518F69A380056739E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AC1638F018F69A380056739E /* UIColor_TomorrowTheme.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC1638E718F69A380056739E /* libUIColor+TomorrowTheme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIColor+TomorrowTheme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1638EA18F69A380056739E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC1638EE18F69A380056739E /* UIColor+TomorrowTheme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TomorrowTheme-Prefix.pch"; sourceTree = "<group>"; };
+		AC1638EF18F69A380056739E /* UIColor_TomorrowTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIColor_TomorrowTheme.h; sourceTree = "<group>"; };
+		AC1638F118F69A380056739E /* UIColor_TomorrowTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColor_TomorrowTheme.m; sourceTree = "<group>"; };
+		AC1638F718F69A380056739E /* UIColor+TomorrowThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIColor+TomorrowThemeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1638F818F69A380056739E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC1638FB18F69A380056739E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC16390218F69A380056739E /* UIColor+TomorrowThemeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIColor+TomorrowThemeTests-Info.plist"; sourceTree = "<group>"; };
+		AC16390418F69A380056739E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC16390618F69A380056739E /* UIColor_TomorrowThemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColor_TomorrowThemeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1638E418F69A380056739E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1638EB18F69A380056739E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1638F418F69A380056739E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1638FF18F69A380056739E /* libUIColor+TomorrowTheme.a in Frameworks */,
+				AC1638F918F69A380056739E /* XCTest.framework in Frameworks */,
+				AC1638FC18F69A380056739E /* UIKit.framework in Frameworks */,
+				AC1638FA18F69A380056739E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1638DE18F69A380056739E = {
+			isa = PBXGroup;
+			children = (
+				AC1638EC18F69A380056739E /* UIColor+TomorrowTheme */,
+				AC16390018F69A380056739E /* UIColor+TomorrowThemeTests */,
+				AC1638E918F69A380056739E /* Frameworks */,
+				AC1638E818F69A380056739E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1638E818F69A380056739E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1638E718F69A380056739E /* libUIColor+TomorrowTheme.a */,
+				AC1638F718F69A380056739E /* UIColor+TomorrowThemeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1638E918F69A380056739E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC1638EA18F69A380056739E /* Foundation.framework */,
+				AC1638F818F69A380056739E /* XCTest.framework */,
+				AC1638FB18F69A380056739E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC1638EC18F69A380056739E /* UIColor+TomorrowTheme */ = {
+			isa = PBXGroup;
+			children = (
+				AC1638EF18F69A380056739E /* UIColor_TomorrowTheme.h */,
+				AC1638F118F69A380056739E /* UIColor_TomorrowTheme.m */,
+				AC1638ED18F69A380056739E /* Supporting Files */,
+			);
+			path = "UIColor+TomorrowTheme";
+			sourceTree = "<group>";
+		};
+		AC1638ED18F69A380056739E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC1638EE18F69A380056739E /* UIColor+TomorrowTheme-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC16390018F69A380056739E /* UIColor+TomorrowThemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC16390618F69A380056739E /* UIColor_TomorrowThemeTests.m */,
+				AC16390118F69A380056739E /* Supporting Files */,
+			);
+			path = "UIColor+TomorrowThemeTests";
+			sourceTree = "<group>";
+		};
+		AC16390118F69A380056739E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC16390218F69A380056739E /* UIColor+TomorrowThemeTests-Info.plist */,
+				AC16390318F69A380056739E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC1638E618F69A380056739E /* UIColor+TomorrowTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16390A18F69A380056739E /* Build configuration list for PBXNativeTarget "UIColor+TomorrowTheme" */;
+			buildPhases = (
+				AC1638E318F69A380056739E /* Sources */,
+				AC1638E418F69A380056739E /* Frameworks */,
+				AC1638E518F69A380056739E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIColor+TomorrowTheme";
+			productName = "UIColor+TomorrowTheme";
+			productReference = AC1638E718F69A380056739E /* libUIColor+TomorrowTheme.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC1638F618F69A380056739E /* UIColor+TomorrowThemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16390D18F69A380056739E /* Build configuration list for PBXNativeTarget "UIColor+TomorrowThemeTests" */;
+			buildPhases = (
+				AC1638F318F69A380056739E /* Sources */,
+				AC1638F418F69A380056739E /* Frameworks */,
+				AC1638F518F69A380056739E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1638FE18F69A380056739E /* PBXTargetDependency */,
+			);
+			name = "UIColor+TomorrowThemeTests";
+			productName = "UIColor+TomorrowThemeTests";
+			productReference = AC1638F718F69A380056739E /* UIColor+TomorrowThemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC1638DF18F69A380056739E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Good To Hear";
+			};
+			buildConfigurationList = AC1638E218F69A380056739E /* Build configuration list for PBXProject "UIColor+TomorrowTheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC1638DE18F69A380056739E;
+			productRefGroup = AC1638E818F69A380056739E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC1638E618F69A380056739E /* UIColor+TomorrowTheme */,
+				AC1638F618F69A380056739E /* UIColor+TomorrowThemeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC1638F518F69A380056739E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16390518F69A380056739E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC1638E318F69A380056739E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1638F218F69A380056739E /* UIColor_TomorrowTheme.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1638F318F69A380056739E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16390718F69A380056739E /* UIColor_TomorrowThemeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC1638FE18F69A380056739E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1638E618F69A380056739E /* UIColor+TomorrowTheme */;
+			targetProxy = AC1638FD18F69A380056739E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC16390318F69A380056739E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC16390418F69A380056739E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC16390818F69A380056739E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC16390918F69A380056739E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC16390B18F69A380056739E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UIColor_TomorrowTheme.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColor+TomorrowTheme/UIColor+TomorrowTheme-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AC16390C18F69A380056739E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UIColor_TomorrowTheme.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColor+TomorrowTheme/UIColor+TomorrowTheme-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC16390E18F69A380056739E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColor+TomorrowTheme/UIColor+TomorrowTheme-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIColor+TomorrowThemeTests/UIColor+TomorrowThemeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC16390F18F69A380056739E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColor+TomorrowTheme/UIColor+TomorrowTheme-Prefix.pch";
+				INFOPLIST_FILE = "UIColor+TomorrowThemeTests/UIColor+TomorrowThemeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC1638E218F69A380056739E /* Build configuration list for PBXProject "UIColor+TomorrowTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16390818F69A380056739E /* Debug */,
+				AC16390918F69A380056739E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16390A18F69A380056739E /* Build configuration list for PBXNativeTarget "UIColor+TomorrowTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16390B18F69A380056739E /* Debug */,
+				AC16390C18F69A380056739E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC16390D18F69A380056739E /* Build configuration list for PBXNativeTarget "UIColor+TomorrowThemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16390E18F69A380056739E /* Debug */,
+				AC16390F18F69A380056739E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC1638DF18F69A380056739E /* Project object */;
+}
