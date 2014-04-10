@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		AC1638EB18F69A380056739E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1638EA18F69A380056739E /* Foundation.framework */; };
-		AC1638F018F69A380056739E /* UIColor_TomorrowTheme.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC1638EF18F69A380056739E /* UIColor_TomorrowTheme.h */; };
-		AC1638F218F69A380056739E /* UIColor_TomorrowTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1638F118F69A380056739E /* UIColor_TomorrowTheme.m */; };
 		AC1638F918F69A380056739E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1638F818F69A380056739E /* XCTest.framework */; };
 		AC1638FA18F69A380056739E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1638EA18F69A380056739E /* Foundation.framework */; };
 		AC1638FC18F69A380056739E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1638FB18F69A380056739E /* UIKit.framework */; };
 		AC1638FF18F69A380056739E /* libUIColor+TomorrowTheme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1638E718F69A380056739E /* libUIColor+TomorrowTheme.a */; };
 		AC16390518F69A380056739E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC16390318F69A380056739E /* InfoPlist.strings */; };
 		AC16390718F69A380056739E /* UIColor_TomorrowThemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16390618F69A380056739E /* UIColor_TomorrowThemeTests.m */; };
+		AC16391218F69A6B0056739E /* UIColor+TomorrowNight.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16391118F69A6B0056739E /* UIColor+TomorrowNight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				AC1638F018F69A380056739E /* UIColor_TomorrowTheme.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +43,14 @@
 		AC1638E718F69A380056739E /* libUIColor+TomorrowTheme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIColor+TomorrowTheme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1638EA18F69A380056739E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AC1638EE18F69A380056739E /* UIColor+TomorrowTheme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TomorrowTheme-Prefix.pch"; sourceTree = "<group>"; };
-		AC1638EF18F69A380056739E /* UIColor_TomorrowTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIColor_TomorrowTheme.h; sourceTree = "<group>"; };
-		AC1638F118F69A380056739E /* UIColor_TomorrowTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColor_TomorrowTheme.m; sourceTree = "<group>"; };
 		AC1638F718F69A380056739E /* UIColor+TomorrowThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIColor+TomorrowThemeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1638F818F69A380056739E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AC1638FB18F69A380056739E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AC16390218F69A380056739E /* UIColor+TomorrowThemeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIColor+TomorrowThemeTests-Info.plist"; sourceTree = "<group>"; };
 		AC16390418F69A380056739E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC16390618F69A380056739E /* UIColor_TomorrowThemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColor_TomorrowThemeTests.m; sourceTree = "<group>"; };
+		AC16391018F69A6B0056739E /* UIColor+TomorrowNight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TomorrowNight.h"; sourceTree = "<group>"; };
+		AC16391118F69A6B0056739E /* UIColor+TomorrowNight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TomorrowNight.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +108,9 @@
 		AC1638EC18F69A380056739E /* UIColor+TomorrowTheme */ = {
 			isa = PBXGroup;
 			children = (
-				AC1638EF18F69A380056739E /* UIColor_TomorrowTheme.h */,
-				AC1638F118F69A380056739E /* UIColor_TomorrowTheme.m */,
 				AC1638ED18F69A380056739E /* Supporting Files */,
+				AC16391018F69A6B0056739E /* UIColor+TomorrowNight.h */,
+				AC16391118F69A6B0056739E /* UIColor+TomorrowNight.m */,
 			);
 			path = "UIColor+TomorrowTheme";
 			sourceTree = "<group>";
@@ -224,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1638F218F69A380056739E /* UIColor_TomorrowTheme.m in Sources */,
+				AC16391218F69A6B0056739E /* UIColor+TomorrowNight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +403,7 @@
 				AC16390C18F69A380056739E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC16390D18F69A380056739E /* Build configuration list for PBXNativeTarget "UIColor+TomorrowThemeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +412,7 @@
 				AC16390F18F69A380056739E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
